@@ -1,0 +1,42 @@
+.win-icon {
+  width: 25px;
+  height: 25px;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.win-icon:after {
+  content: "W";
+  color: #fff;
+  font-weight: bold;
+}
+
+.lose-icon {
+  width: 25px;
+  height: 25px;
+  background-color: darkred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lose-icon:after {
+  content: "L";
+  color: #fff;
+  font-weight: bold;
+}
+
+.fireworks {
+  position: absolute;
+  z-index: -2;
+  inset: 0 0 0 0;
+}
+
+#round > div,
+#userScoreResult > div,
+#cpuScoreResult > div,
+#iconScoreResult > div {
+  margin-top: 12px;
+}
