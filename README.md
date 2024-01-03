@@ -1,6 +1,8 @@
 # ADIVINA-EL-NÚMERO
 Selbsterstellte Spiele
 
+https://heartfelt-croquembouche-e138d7.netlify.app/
+
 ## Die Regeln
 Man wählt eine Nummer aus dem Select-Feld. Zwischen diesem Bereich tippt man seine Zahl. Beim Klick auf den Button wird eine zufällige Zahl generiert, und der Gegner tippt auch eine Zahl. Dann wird ermittelt, wer näher an der zufälligen Zahl dran ist.
 
