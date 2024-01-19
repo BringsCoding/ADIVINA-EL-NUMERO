@@ -1,4 +1,3 @@
-console.log("Hey Script");
 //Variabeln
 let inputNummber = document.querySelector("#nummber");
 let btn = document.querySelector("#btn");
@@ -37,6 +36,11 @@ function errorCase() {
   //  Value unter 1000
   if (inputNummber.value < 0) {
     alert(`Value ist unter 0`);
+    inputNummber.value = 0;
+    return true;
+  }
+  if (inputNummber.value === "") {
+    alert(`Kein Wert angegeben.`);
     inputNummber.value = 0;
     return true;
   }
